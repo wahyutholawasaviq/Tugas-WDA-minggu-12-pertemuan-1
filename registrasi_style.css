@@ -1,17 +1,14 @@
-/* ---------- Token ---------- */
 :root {
-  /* Warna */
-  --navy: #0b1f4d;          /* utama */
-  --navy-dark: #071536;     /* hover / aktif */
-  --amber: #f5a623;         /* pendukung: aksen tombol & fokus */
+  --navy: #0b1f4d;          
+  --navy-dark: #071536;     
+  --amber: #f5a623;         
   --amber-dark: #d98c0c;
-  --sky: #e8eef9;           /* pendukung: latar halaman */
+  --sky: #e8eef9;        
   --white: #ffffff;
-  --ink: #1b2437;           /* teks isi */
-  --muted: #5d6a85;         /* placeholder & teks sekunder */
-  --line: #c9d3e6;          /* garis input */
+  --ink: #1b2437;       
+  --muted: #5d6a85;   
+  --line: #c9d3e6;         
 
-  /* Spasi: semua kelipatan 8 */
   --s1: 8px;
   --s2: 16px;
   --s3: 24px;
@@ -24,7 +21,6 @@
   --font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-/* ---------- Dasar ---------- */
 *,
 *::before,
 *::after{
@@ -256,7 +252,6 @@ button:focus-visible{
   outline-offset: 3px;
 }
 
-/* ---------- Responsif ---------- */
 @media (max-width: 640px) {
   .page {
     padding-top: var(--s3);
