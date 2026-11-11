@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrasi Lomba Coding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+    <header>
+      <h1>Registrasi Lomba Coding</h1>
+      <p>Silahkan isi formulir dibawah ini</p>
+    </header>
+
+    <form id="form" action="#" method="post">
+
+      <section class="section" aria-labelledby="judul-biodata">
+        <h2 class="section_title" id="judul-biodata">Biodata diri</h2>
+
+        <div class="row">
+          <input class="field" type="text" name="nama" placeholder="Nama peserta" aria-label="Nama peserta" required>
+          <input class="field" type="email" name="email" placeholder="Email" aria-label="Email" required>
+        </div>
+
+        <div class="row">
+          <input class="field" type="tel" name="hp" placeholder="Nomor HP" aria-label="Nomor HP" required>
+          <input class="field" type="number" name="umur" min="19" max="21" placeholder="Umur" aria-label="Umur" min="1" required>
+        </div>
+
+        <div class="row">
+          <input class="field" type="url" name="sosmed" placeholder="Link sosmed" aria-label="Link sosmed" required>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="judul-pilihan">
+        <h2 class="section_title" id="judul-pilihan">Pilihan khusus</h2>
+
+        <fieldset class="checks">
+          <legend class="checks_legend">Kemampuan bahasa pemrograman</legend>
+          <div class="checks_grid">
+            <label class="check">
+              <input type="checkbox" name="bahasa" value="javascript">
+              <span>JavaScript</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="bahasa" value="python">
+              <span>Python</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="bahasa" value="java">
+              <span>Java</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="bahasa" value="php">
+              <span>PHP</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="row">
+          <select class="field" name="semester" aria-label="Semester peserta" required>
+            <option value="" disabled selected hidden>Pilih semester</option>
+            <option value="1">Semester 1</option>
+            <option value="2">Semester 2</option>
+            <option value="3">Semester 3</option>
+            <option value="4">Semester 4</option>
+            <option value="5">Semester 5</option>
+            <option value="6">Semester 6</option>
+            <option value="7">Semester 7</option>
+            <option value="8">Semester 8</option>
+          </select>
+
+          <select class="field" name="tema" aria-label="Tema perlombaan" required>
+            <option value="" disabled selected hidden>Pilih tema perlombaan</option>
+            <option value="web">Pengembangan web</option>
+            <option value="mobile">Aplikasi mobile</option>
+            <option value="algoritma">Algoritma dan struktur data</option>
+            <option value="ai">Kecerdasan buatan</option>
+          </select>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button type="submit">Daftar sekarang</button>
+      </div>
+
+    </form>
+  </main>
+</body>
+</html>
