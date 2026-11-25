@@ -253,23 +253,23 @@ button:focus-visible{
 }
 
 @media (max-width: 640px) {
-  .page {
+  .page{
     padding-top: var(--s3);
   }
 
-  .header {
+  .header{
     padding: var(--s4) var(--s3);
   }
 
-  .header__title {
+  .header__title{
     font-size: 1.5rem;
   }
 
-  .section {
+  .section{
     padding: var(--s3) var(--s2);
   }
 
-  .row {
+  .row{
     grid-template-columns: 1fr;
   }
 
